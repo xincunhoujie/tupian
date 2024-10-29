@@ -39,7 +39,7 @@
     1.Note 设置token名称，必填\
     2.Expiration 设置tiken过期时间\
     3.选项框中的repo下的所有项目必选\
-    4.提交 Generate token\
+    4.提交 Generate token
 7.  复制生成的token
 
 ### 2.配置PicGo
@@ -58,4 +58,8 @@
 3.  **添加以下内容**：
 4.  185.199.108.133 githubusercontent.com\
     185.199.108.133 raw\.githubusercontent.com
+5.  刷新IP映射 运行->cmd>ipconfig/flushdns  (此步可选)\
+    其他命令：ipconfig /displaydns # 显示dns缓存\
+    &#x20;               ipconfig /renew # 重请从DHCP服务器获得IP
+
 
